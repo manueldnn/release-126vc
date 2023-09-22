@@ -1,0 +1,24 @@
+{
+  "id": 14,
+  "globalId": "99cb010c-8733-4288-b50c-13ba3a9e34a4",
+  "namespace": {
+    "id": 1,
+    "globalId": "6cc65544-dd3e-469e-a2c1-3019eb718416",
+    "name": "PAASysUpdates",
+    "description": "",
+    "isSystem": true
+  },
+  "name": "LastVersionReleased",
+  "description": "",
+  "parser": "<parser><type>string</type><replace>false</replace><decodeHtml>false</decodeHtml></parser>",
+  "defaultValue": "",
+  "cacheTime": 0,
+  "cacheLayer": "Global",
+  "src": {
+    "url": "https://services.plantanapp.com/api/GetLastReleasedVersion",
+    "get": "",
+    "post": "",
+    "headers": "",
+    "type": "http"
+  }
+}
